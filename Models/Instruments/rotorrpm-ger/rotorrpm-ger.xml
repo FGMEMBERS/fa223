@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>rotorrpm-ger.ac</path>
+
+ <animation>
+  <type>material</type>
+  <object-name>Face</object-name>
+  <object-name>needle1</object-name>
+  <object-name>needle2</object-name>
+  <emission>
+    <factor-prop>/controls/lighting/instruments-norm</factor-prop>
+    <red>0.25</red>
+    <green>0.25</green>
+    <blue>0.8</blue>
+  </emission>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>needle1</object-name>
+  <property>rotors/left/rpm</property>
+  <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>34.0</dep>
+   </entry>
+   <entry>
+    <ind>100.0</ind>
+    <dep>105</dep>
+   </entry>
+   <entry>
+    <ind>200.0</ind>
+    <dep>180.0</dep>
+   </entry>
+   <entry>
+    <ind>300.0</ind>
+    <dep>254</dep>
+   </entry>
+   <entry>
+    <ind>400.0</ind>
+    <dep>325.0</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+ <animation>
+  <type>rotate</type>
+  <object-name>needle2</object-name>
+  <property>rotors/right/rpm</property>
+  <interpolation>
+   <entry>
+    <ind>0.0</ind>
+    <dep>34.0</dep>
+   </entry>
+   <entry>
+    <ind>100.0</ind>
+    <dep>105</dep>
+   </entry>
+   <entry>
+    <ind>200.0</ind>
+    <dep>180.0</dep>
+   </entry>
+   <entry>
+    <ind>300.0</ind>
+    <dep>254</dep>
+   </entry>
+   <entry>
+    <ind>400.0</ind>
+    <dep>325.0</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+</PropertyList>
+
+
